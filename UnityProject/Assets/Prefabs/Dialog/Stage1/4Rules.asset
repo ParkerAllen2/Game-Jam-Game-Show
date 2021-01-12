@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eec6308d0bd22644cb7382c661966c00, type: 3}
+  m_Name: 4Rules
+  m_EditorClassIdentifier: 
+  nameTag: {fileID: 21300000, guid: 7c91fe8d3fdf62b45af53fc24f976835, type: 3}
+  sentences:
+  - 'The rules are simple
+
+    my displeasing contestant'
+  - 'I will ask a question
+
+    and you will answer'
+  - 'Then you will face a challenge based
+
+    on your answer.'
+  - Now Let's get to the fun!
+  endDialog: 0
+  dialogueOptions:
+  - text: 
+    nextDialogue: {fileID: 11400000, guid: 85aa241dfdd6b18448681af8b6dcaa8a, type: 2}

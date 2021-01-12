@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eec6308d0bd22644cb7382c661966c00, type: 3}
+  m_Name: 2Question
+  m_EditorClassIdentifier: 
+  nameTag: {fileID: 21300000, guid: 7c91fe8d3fdf62b45af53fc24f976835, type: 3}
+  sentences:
+  - 'Did you hear that my worthless contestant?
+
+    You have so many fans!!'
+  - 'I bet you are ready to break some legs!
+
+    or whatever that expression is.'
+  - 'So here is the next question,
+
+'
+  - 'How many liters of blood does
+
+    a human have?'
+  endDialog: 0
+  dialogueOptions:
+  - text: 5
+    nextDialogue: {fileID: 11400000, guid: b1c5758f83efde2458bdc5a9a9e342bf, type: 2}
+  - text: 12
+    nextDialogue: {fileID: 11400000, guid: f50dbe78607436d438f0649f10b305d2, type: 2}
+  - text: 42
+    nextDialogue: {fileID: 11400000, guid: dcc55af4f85ebd048be65256436cd116, type: 2}
